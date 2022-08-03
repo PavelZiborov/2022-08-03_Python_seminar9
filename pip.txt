@@ -1,0 +1,12 @@
+Что ещё умеет делать pip:
+pip install package_name - установка пакета(ов).
+pip download package_name - загружает пакет(ы), но не устанавливает.
+pip uninstall package_name - удаление пакета(ов).
+pip list - выводит список установленных пакетов.
+pip freeze - выводит список установленных пакетов с их версиями для файла requirements.txt.
+pip search - поиск пакетов в PyPI по их имени.
+pip install -U - обновление пакета(ов).
+pip show some-package-name - показывает информацию об установленном пакете.
+pip check package_name - проверяет что установленные пакеты имеют совместимые зависимости.
+pip install --force-reinstall - переустановить пакет, даже если он последней версии.
+pip help - помощь по доступным командам.
